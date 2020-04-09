@@ -1,56 +1,94 @@
+/* * {
+  border: green 1px dotted;
+} */
+
 body {
   background-color: salmon;
 }
 
-header {
+body > section {
+  width: 960px;
   background-color: sandybrown;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+header {
+  background-color: black;
+  color: salmon;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px black solid;
   /* margin-left: 148px; */
 }
 
 h1 {
   text-align: center;
+  font-size: xx-large;
 }
 
-main.homepage {
-  width: 100%;
-  background-color: sandybrown;
+main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
 
-p.welcomeMsg{
-  width: 35%;
-  background-color: sandybrown;
-  font-size: x-large;
-  margin-left: 100px;
-  border: 15px solid sandybrown;
+main > p {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color: black;
+  color: salmon;
+  border: 10px solid black;
 }
 
-img.salmon {
-  margin-left: 360px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  max-width: 300px;
-}
 
-img.salmonIndex {
-  margin-top: 0;
-  margin-left: 615px;
-  max-width: 300px;
-}
 
-img.seattle {
-  max-width: 300px;
-  border-radius: 500px;
-}
-
-table {
+main > table {
   border: 1px solid black;
   border-collapse: collapse;
-  background-color: sandybrown;
-  width: 80%;
-  margin-left: 148px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: larger;
 }
 
 td, th {
   border: 1px solid black;
 }
+
+body > section > img {
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+body > section > main > article {
+}
+
+body > section > main > article > img {
+  max-width: 250px;
+  border-radius: 50%;
+  margin-left: 45px;
+  
+}
+
+body > section > main > article > h2 {
+  text-align: center;
+  background-color: black;
+  color: salmon;
+}
+
+footer {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+}
+
+

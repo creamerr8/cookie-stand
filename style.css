@@ -1,0 +1,56 @@
+body {
+  background-color: salmon;
+}
+
+header {
+  background-color: sandybrown;
+  width: 100%;
+  /* margin-left: 148px; */
+}
+
+h1 {
+  text-align: center;
+}
+
+main.homepage {
+  width: 100%;
+  background-color: sandybrown;
+}
+
+p.welcomeMsg{
+  width: 35%;
+  background-color: sandybrown;
+  font-size: x-large;
+  margin-left: 100px;
+  border: 15px solid sandybrown;
+}
+
+img.salmon {
+  margin-left: 360px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 300px;
+}
+
+img.salmonIndex {
+  margin-top: 0;
+  margin-left: 615px;
+  max-width: 300px;
+}
+
+img.seattle {
+  max-width: 300px;
+  border-radius: 500px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: sandybrown;
+  width: 80%;
+  margin-left: 148px;
+}
+
+td, th {
+  border: 1px solid black;
+}
